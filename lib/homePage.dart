@@ -81,7 +81,7 @@ class _codeState extends State<code> {
             flex: 0,
             child: Container(
               margin: EdgeInsets.all(10),
-              height: 30,
+              height: 0,
               width: double.infinity,
               decoration: BoxDecoration(
                   border: Border(top: BorderSide(color: Colors.white24))),
