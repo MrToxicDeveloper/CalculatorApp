@@ -25,13 +25,16 @@ class _HomePageState extends State<HomePage> {
               height: 220,
               width: double.infinity,
               alignment: Alignment.bottomRight,
-              child: Text(
-                "$d",
-                style: TextStyle(
-                  fontSize: 80,
-                  color: Colors.white,
+              child: RichText(
+                text: TextSpan(
+                  children: [
+                    TextSpan(
+                      text: "$a",
+                      style: TextStyle()
+                    ),
+                  ]
                 ),
-              ),
+              )
             ),
             Container(
               height: 30,
